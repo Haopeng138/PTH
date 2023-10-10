@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+### 
+GET http://localhost:8080/api/animals
+Authorization: Beare eyJhbGciOiJIUzI1NIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluMSIsImlhdCI6MTY5Njg5MjEzOSwiZXhwIjoxNjk5NDg0MTM5fQ.cvFsmZCdLnrkurhhGQtRwMlEwCrHuU2TgTulM9lj66U
